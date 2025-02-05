@@ -1,7 +1,11 @@
 function invertString(string) {
-  // escreva seu código aqui
+    let newString = "";
+    for (let index = 0; index < string.length; index++) {
+        newString = string[index] + newString;
+    }
+    return newString;
 }
 
 module.exports = {
-  invertString
-}
+    invertString,
+};
