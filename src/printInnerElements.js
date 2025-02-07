@@ -18,8 +18,3 @@ function printInnerElements(array) {
 module.exports = {
   printInnerElements
 }
-
-var x = [1,2,32,5,2356,54,7]
-console.log(printInnerElements(x));
-console.log(printInnerElements(['asf', 'asvsdh', 'dfgsfgdhghjh', 'asdhjkdfhfgd', 'sdf']))
-console.log(printInnerElements([1,2]))
