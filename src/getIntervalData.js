@@ -34,18 +34,6 @@ function getIntervalData(array, inicio, fim) {
 }
 
 
-const array = [1, 2, 3, 4, 5, 1]
-const intervalo = getIntervalData(array, 2, 4);
-console.log(intervalo);
-
-const array2 = [20, 14, 5, 6, 9, 63, 80, 120]
-const intervalo2 = getIntervalData(array2, 20, 80);
-console.log(intervalo2);
-
-const array3 = [15, 4, 6, 9, 21, 30, 7]
-const intervalo3 = getIntervalData(array3, 15, 30);
-console.log(intervalo3);
-
 module.exports = {
 getIntervalData
 }
