@@ -1,5 +1,5 @@
 function formatPhoneNumber(telNumber) {
-  
+
   // ddd
   telFormat = '('
   if (telNumber.length != 11){
@@ -44,7 +44,6 @@ function formatPhoneNumber(telNumber) {
 }
 
 
-console.log(formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]))
 module.exports = {
     formatPhoneNumber
 }
