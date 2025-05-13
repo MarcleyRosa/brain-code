@@ -1,5 +1,5 @@
 function calculateNetSalary(grossSalary) {
-  // escreva seu código aqui
+  // codigo aqui
 }
 
 module.exports = {
