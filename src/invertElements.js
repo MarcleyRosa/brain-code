@@ -1,5 +1,9 @@
 function invertElements(array) {
-  // escreva seu código aqui
+  var newarr = []
+  for (let index = array.length-1; index > -1; index--) {
+    newarr.push(array[index]);
+  }
+  return newarr
 }
 
 module.exports = {
