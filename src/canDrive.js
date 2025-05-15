@@ -6,7 +6,6 @@ function canDrive(age) {
   }
 }
 
-
 module.exports = {
   canDrive
 }
