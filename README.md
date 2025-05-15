@@ -257,10 +257,10 @@ Exemplo
 
 <details>
   <summary>
-Implemente a função <code>printInnerElements</code> e escreva um código que imprima todos os elementos de um array, exceto o primeiro e o último
+Implemente a função <code>printInnerElements</code> e escreva um código que imprima um por um dos elementos de um array, exceto o primeiro e o último
 
   </summary> <br />
-A função `printInnerElements` recebe um array como parâmetro e deve imprimir todos os elementos menos o primeiro e o ultimo.
+A função `printInnerElements` recebe um array como parâmetro e deve imprimir um por um dos elementos menos o primeiro e o ultimo.
 
 Se o array tiver um tamanho menor que 3 deve imprimir a seguinte mensagem `'Tamanho do array inválido'`
   
