@@ -1,7 +1,11 @@
 function invertElements(array) {
-  // escreva seu código aqui
+    const newArray = [];
+    for (let index = 0; index < array.length; index++) {
+        newArray.unshift(array[index]);
+    }
+    return newArray;
 }
 
 module.exports = {
-  invertElements
-}
+    invertElements,
+};
