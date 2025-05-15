@@ -30,7 +30,7 @@
 	  * Exemplo: `git checkout master`
 	* Agora, crie uma branch para qual você vai submeter os `commits` do seu projeto:
 		* Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-		* Exemplo: `git checkout -b arthur-alves-vanillaChallenges`
+		* Exemplo: `git checkout -b arthur-alves-brain-code`
 
 2. Adicione as mudanças ao _stage_ do Git e faça um `commit`
 	* Verifique que as mudanças ainda não estão no _stage_
@@ -46,10 +46,10 @@
 
 3. Adicione a sua branch com o novo `commit` ao repositório remoto
 
-	* Usando o exemplo anterior: `git push -u origin arthur-alves-vanillaChallenges`
+	* Usando o exemplo anterior: `git push -u origin arthur-alves-brain-code`
 
 4. Crie um novo `Pull Request`  _(PR)_
-	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/UnifelDesenvolvimentoWeb/vanillaChallengesJS/pulls)
+	* Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/MarcleyRosa/brain-code/pulls)
 	* Clique no botão verde _"New pull request"_
 	* Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
 	* Coloque um título para o seu _Pull Request_
@@ -57,7 +57,7 @@
 	* Clique no botão verde _"Create pull request"_
 	* Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
 	*  **Não se preocupe em preencher mais nada por enquanto!**
-	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/UnifelDesenvolvimentoWeb/vanillaChallengesJS/pulls) e confira que o seu _Pull Request_ está criado.
+	* Volte até a [página de _Pull Requests_ do repositório](https://github.com/MarcleyRosa/brain-code/pulls) e confira que o seu _Pull Request_ está criado.
 	
 </details>
 
