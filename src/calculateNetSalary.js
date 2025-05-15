@@ -1,6 +1,6 @@
 function calculateNetSalary(grossSalary) {
     let inss = 0;
-    if(grossSalary >= 1556.94){
+    if(grossSalary <= 1556.94){
          inss = grossSalary * 0.08;
     }
 
