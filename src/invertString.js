@@ -1,5 +1,6 @@
 function invertString(string) {
-  // escreva seu código aqui
+  let newString = string.split("").reverse().join("");
+  return newString;
 }
 
 module.exports = {
