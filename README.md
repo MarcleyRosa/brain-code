@@ -257,10 +257,10 @@ Exemplo
 
 <details>
   <summary>
-Implemente a função <code>printInnerElements</code> e escreva um código que imprima todos os elementos de um array, exceto o primeiro e o último
+Implemente a função <code>printInnerElements</code> e escreva um código que imprima um por um dos elementos de um array, exceto o primeiro e o último
 
   </summary> <br />
-A função `printInnerElements` recebe um array como parâmetro e deve imprimir todos os elementos menos o primeiro e o ultimo.
+A função `printInnerElements` recebe um array como parâmetro e deve imprimir um por um dos elementos menos o primeiro e o ultimo.
 
 Se o array tiver um tamanho menor que 3 deve imprimir a seguinte mensagem `'Tamanho do array inválido'`
   
@@ -467,4 +467,44 @@ const intervalo = getIntervalData(array, 15, 30);
 console.log(intervalo); // Espera-se que imprima: { arrayNoIntervalo: [15, 21, 30], contador: 3 };
 ```
 
+</details>
+
+## 12 - Method Restrictions
+
+<details>
+  <summary>
+  Implemente em todas as funções a resolução dos requisitos sem a utilização de métodos.
+
+  </summary> <br />
+
+  **OBS: Implemente em todos os requisitos do ( 1° ao 11° )** <br /> <br />
+  Exemplo: Uma solução onde o problema a ser resolvido é elevar um número ao quadrado e que pode ser resolvida com métodos e sem métodos <br /> <br />
+
+
+
+  **Com Métodos:**
+  ```javascript
+    function aoQuadrado(n) {
+      return Math.pow(n, 2);
+    }
+  ```
+
+  **Sem Métodos:**
+  ```javascript
+    function aoQuadrado(n) {
+      return n * n;
+    }
+  ```
+  ### Métodos proibidos incluem (mas não se limitam a):
+
+  - `includes`
+  - `map`
+  - `filter`
+  - `find`
+  - `forEach`
+  - `reduce`
+  - `push`, `splice`
+  - `indexOf`, `lastIndexOf`
+  - `Math.max`, `Math.min`, `Math.pow`, `Math.abs`, etc.
+  - `Object.keys`, `Object.values`, `Object.entries`, etc.
 </details>
