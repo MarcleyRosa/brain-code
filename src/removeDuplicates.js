@@ -1,13 +1,21 @@
 function removeDuplicates(array) {
   const newArray = [];
+  let pos = 0;
 
   for(let i = 0; i < array.length; i++){
-    const atual = array[i];
-    if(!newArray.includes(atual)){
-      newArray.push(atual);
+    let duplicado = false;
+    for(let j = 0; j < array.length; j++){
+      if(array[i] == newArray[j]){
+        duplicado = true;
+        break;
+      }
     }
-  }
 
+    if (!duplicado) {
+    newArray[pos] = array[i];
+    pos ++;
+  }
+  }
   return newArray;
 }
 
