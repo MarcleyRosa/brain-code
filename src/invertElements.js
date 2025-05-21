@@ -1,14 +1,16 @@
 function invertElements(array) {
   const newArray = [];
-  for(let i = array.length - 1; i >= 0; i--){
-    newArray.push(array[i]);
+  for(let i = 0; i < array.length; i++){
+    let pos = array.length - i - 1;
+
+    newArray[i] = array[pos];
   }
   return newArray;
 }
 
-//const array = [8, 4, 60, 15];
-//const newArray = invertElements(array);
-//console.log(newArray);
+const array = [8, 4, 60, 15];
+const newArray = invertElements(array);
+console.log(newArray);
 
 module.exports = {
   invertElements
