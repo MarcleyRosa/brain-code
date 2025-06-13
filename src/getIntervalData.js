@@ -1,8 +1,14 @@
 function getIntervalData(array, inicio, fim) {
-  // escreva seu código aqui
+  const arrayNoIntervalo = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] >= inicio && array[i] <= fim) {
+      arrayNoIntervalo.push(array[i]);
+    }
+  }
+  return {
+    arrayNoIntervalo,
+    contador: arrayNoIntervalo.length,
+  };
 }
 
-module.exports = {
-getIntervalData
-}
-
+module.exports = { getIntervalData };
