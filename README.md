@@ -230,6 +230,7 @@ A função `findMaximum`:
 - Recebe um único parâmetro: um array de números.
 - Percorre o array e compara cada elemento para determinar o maior valor.
 - Retorna o maior número do array.
+- deve retornar `undefined` quando chamada com um array vazio.
 
 ### Exemplo de Uso
 
