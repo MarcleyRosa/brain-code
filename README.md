@@ -251,7 +251,7 @@ Exemplo
 
 - Retorna o valor 10 quando a função é chamada com o parâmetro [5, 8, 4, 10];
   
-- Retorna `undefined` quando a função é chamada com o parâmetro [];
+- Retorna `undefined` quando a função é chamada com o parâmetro [ ];
 
 </details>
 
