@@ -296,9 +296,9 @@ Implemente a função <code>invertElements</code> que recebe um array e retorna 
 
 **O que será testado:**
   
-- Retorne `[10, 7, 23]` quando o parâmetro passado na funcão concatName seja `[23, 7, 10]`;
+- Retorne `[10, 7, 23]` quando o parâmetro passado na funcão invertElements seja `[23, 7, 10]`;
 
-- Retorne `['uva', 'banana', 'maça']` quando o parâmetro passado na funcão concatName seja `['maça', 'banana', 'uva']`;
+- Retorne `['uva', 'banana', 'maça']` quando o parâmetro passado na funcão invertElements seja `['maça', 'banana', 'uva']`;
 
 </details>
 
